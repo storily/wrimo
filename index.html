@@ -4,14 +4,66 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Writing Month 🙙 wrimo.nz</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet"
+        />
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css"
         />
-        <style></style>
+        <style>
+            html {
+                background: oklch(0.8694 0.0786 214.69);
+                color: oklch(0.2359 0.0287 82.29);
+                font-family: "Fira Sans", sans-serif;
+                text-align: justify;
+                text-wrap: pretty;
+            }
+
+            body {
+                margin: 2rem auto;
+                width: min(100vh, 64ch);
+            }
+
+            h1 {
+                font-family: "Alfa Slab One", serif;
+                font-weight: 400;
+                font-size: 5em;
+                line-height: 0.9em;
+                text-align: center;
+                margin-bottom: 0.5em;
+            }
+
+            h2 {
+                margin-top: 1em;
+            }
+
+            p,
+            li,
+            lh {
+                margin-bottom: 1em;
+            }
+
+            lh {
+                font-weight: bold;
+                font-size: 1.1em;
+                margin-top: 0.5em;
+            }
+
+            .disclaimer {
+                font-size: 0.8em;
+            }
+        </style>
     </head>
     <body>
-        <h1>Writing Month</h1>
+        <h1>Writing<br />Month</h1>
         <p>
             Writing Month (WriMo) is a journey to write a story. From
             first-timers to award-winning authors, join a community of creative
@@ -106,7 +158,7 @@
         <p>
             Here's
             <a href="https://www.youtube.com/watch?v=pCDdVMfmFcU"
-                >a 7-minute rapid-fire video</a
+                >a 7-minute vlog-style video</a
             >
             of someone doing the event in 2018, which gives you a great idea of
             how a typical Writing Month event goes.
@@ -206,7 +258,7 @@
                 >
             </li>
         </ul>
-        <p>
+        <p class="disclaimer">
             Wrimo.nz is not affiliated to (<a
                 href="https://www.nanoscandal.com/"
                 >now defunct</a
